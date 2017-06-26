@@ -12,5 +12,11 @@ cd ${ROOTDIR}/../
 
 echo ">>>>>>>>Work at : `pwd`"
 
+rm -Rdf .git
+
 mkdir -pv doc/man doc/install out/bin web 3rd/out/bin tools deploy vagrant/tools vagrant/box vagrant/vm
 touch 3rd/out/.init deploy/.init doc/install/.init doc/man/.init out/bin/.init tools/.init vagrant/box/.init vagrant/tools/.init vagrant/vm/.init web/.init
+
+git init
+git add -A
+git commit -C "init respo"

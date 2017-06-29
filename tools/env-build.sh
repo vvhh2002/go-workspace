@@ -19,4 +19,4 @@ touch 3rd/out/.init deploy/.init doc/install/.init doc/man/.init out/bin/.init t
 
 git init
 git add -A
-git commit -C "init respo"
+git commit -a
